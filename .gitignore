@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# AWS SAM / CDK
+cdk.out/
+.idea/
+.vscode/
+
+# Docker
+*.dockerfile
+*.tar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment variables (nunca versionar)
+.env
+.env.*
